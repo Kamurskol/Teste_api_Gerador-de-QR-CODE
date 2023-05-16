@@ -6,7 +6,7 @@ qrImg = container.querySelector('.qr-code .img');
 generateBtn.addEventListener('click', () => {
     let qrValue = qrInput.value;
     if(!qrValue){
-        alert('Insire ua URL para gerar um Qr Code.')
+        alert('Insira uma URL para gerar um Qr Code.')
         return;
     }
     generateBtn.innerText = "Gerando um Qr Code...";
